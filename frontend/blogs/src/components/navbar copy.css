@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NavBar */
+.navbar {
+  display: flex;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.nav {
+  margin: 11px auto;
+}
+
+.items {
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.navbar li a {
+  color: white;
+
+  text-decoration: none;
+  padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: #2c3bfe;
+  color: yellow;
+}
+
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 34px;
+  top: 10px;
+}
+.left img {
+  height: 50px;
+}
+
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 34px;
+  top: 20px;
+}

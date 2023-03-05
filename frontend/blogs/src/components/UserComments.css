@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    padding-top: 2%;
+}
+
+.container {
+    width: 300px;
+    border: 2px solid #333;
+    padding: 15px 10px;
+    background-color: #f5f6f6;
+}
+
+.container h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+textarea {
+    height: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #aaa;
+    background-color: transparent;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+    transition: 0.5s;
+}
+
+.btnDelete {
+    margin-right: 1%;
+    padding: 7px 20px;
+    font-size: 15px;
+    background: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btnDelete:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    border: 2px solid yellow;
+}
+
+button {
+    color: #333;
+    cursor: pointer;
+    background-color: transparent;
+}
+.comments{
+    color: black;
+    padding-bottom: 2%;
+}
+.comments h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
